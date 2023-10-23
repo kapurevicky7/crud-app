@@ -1,0 +1,35 @@
+/* Apply some general styles to the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the table header row */
+thead {
+  background-color: #007bff; /* Header background color */
+  color: #fff; /* Header text color */
+  font-weight: bold;
+}
+
+/* Style the table header cells */
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style the table body rows */
+tbody {
+  background-color: #f9f9f9; /* Alternate row background color */
+}
+
+/* Style the table data cells */
+td {
+  padding: 10px;
+}
+
+/* Add some spacing between rows */
+tr:nth-child(even) {
+  background-color: #ffffff; /* Alternate row background color */
+}
